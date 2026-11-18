@@ -124,14 +124,3 @@ Before pushing, check that `.env` and database files are not staged. Never publi
 
 This is a compact dimensional model for portfolio demonstration. For production, add surrogate keys, date dimension, incremental/CDC loading, orchestration, schema evolution, retries, monitoring, and access controls.
 
-## Resume wording (only after implementation)
-
-**CommercePulse — E-commerce Data Engineering Pipeline** | Python, Pandas, SQL, MySQL/SQLite, Streamlit, Plotly, AWS S3 (if implemented)
-
-- Built a Python/Pandas ETL workflow to ingest, clean, validate and transform e-commerce order data.
-- Designed a dimensional SQL warehouse with customer and product dimensions and an order fact table.
-- Developed analytical SQL queries using joins, aggregations and window functions.
-- Created an interactive dashboard to explore revenue trends, product performance, city-level sales and order quality.
-- Added structured logging, pipeline metrics and automated transformation tests.
-
-Be precise in interviews: the included AWS integration uploads a processed file to S3; it does not implement Glue, Redshift, EMR or Spark.
