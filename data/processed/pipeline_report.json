@@ -1,0 +1,15 @@
+{
+  "data_quality": {
+    "input_rows": 2501,
+    "output_rows": 2499,
+    "duplicates_removed": 1,
+    "missing_required_dropped": 0,
+    "invalid_numeric_dropped": 1,
+    "rows_removed_total": 2
+  },
+  "warehouse_load": {
+    "loaded_rows": 2499,
+    "rejected_rows": 0
+  },
+  "processed_file": "D:\\ecommerce-data-engineering\\data\\processed\\clean_orders.csv"
+}

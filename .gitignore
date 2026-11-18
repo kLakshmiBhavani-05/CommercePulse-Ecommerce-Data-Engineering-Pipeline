@@ -1,0 +1,9 @@
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.streamlit/
+.env
+*.pyc
+data/warehouse.db
+logs/*.log
